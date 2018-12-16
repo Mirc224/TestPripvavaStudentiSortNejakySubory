@@ -76,5 +76,9 @@ int main(int argc, char* argv[])
 			}
 		}
 	}
+	for(auto &p : osoby)
+	{
+	 delete p;
+	}	
 	return 0;
 }
